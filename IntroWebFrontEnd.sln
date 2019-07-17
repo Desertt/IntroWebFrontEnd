@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroWebFrontEnd", "IntroWebFrontEnd\IntroWebFrontEnd.csproj", "{F21840CF-1CFF-4353-A2A3-471CA0100D99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroWebFrontEnd.Tests", "IntroWebFrontEnd.Tests\IntroWebFrontEnd.Tests.csproj", "{E7CDB326-209C-4919-9FBA-F91FCED25492}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{F21840CF-1CFF-4353-A2A3-471CA0100D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F21840CF-1CFF-4353-A2A3-471CA0100D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F21840CF-1CFF-4353-A2A3-471CA0100D99}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E7CDB326-209C-4919-9FBA-F91FCED25492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7CDB326-209C-4919-9FBA-F91FCED25492}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7CDB326-209C-4919-9FBA-F91FCED25492}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7CDB326-209C-4919-9FBA-F91FCED25492}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
