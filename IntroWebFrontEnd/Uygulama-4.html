@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form action="/Home/Register">
+        <h2>Lütfen Formu Eksiksiz Doldurunuz.</h2>
+        <hr>
+        <h3>Hesap Bilgileriniz</h3>
+        <p>
+            Kullanıcı Adı:<input type="text" name="Kullanıcı Adı" placeholder="Kullanıcı Adınızı giriniz" required />
+        </p>
+        <p>
+            Eposta:<input type="email" name="Email" placeholder="Email adresinizi giriniz" required />
+        </p>
+        <p>
+            Parola:<input type="password" name="Şifre" placeholder="Parolanızı giriniz" required />
+        </p>
+
+        <h3>Kişisel Bilgileriniz</h3>
+        <p>
+            Ad:<input type="text" name="Ad" placeholder="Adınızı Giriniz" required />
+        </p>
+        <p>
+            Soyad:<input type="text" name="Soyad" placeholder="Soyadınızı giriniz" required />
+        </p>
+        <p>
+            Şehir:
+            <select>
+                <option>Seçiniz</option>
+                <option>Ankara</option>
+                <option>Kocaeli</option>
+                <option>İstanbul</option>
+            </select>
+        </p>
+        <p>
+            Erkek:<input type="radio" name="cinsiyet">
+            Kadın:<input type="radio" name="cinsiyet">
+        </p>
+        <p>
+            Hobileriniz:<br>
+            <input type="checkbox" name="hobi">Sinema
+            <input type="checkbox" name="hobi">Gezmek
+            <input type="checkbox" name="hobi">Spor
+            <input type="checkbox" name="hobi">Kitap
+        </p>
+
+        <input type="submit" value="Kaydet" name="Kaydet">
+
+    </form>
+</body>
+</html>
