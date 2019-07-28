@@ -5,16 +5,17 @@
     <title></title>
 </head>
 <body>
-    <form action="/Home/Register">
+
+    <form action="" method="post">
         <!--Action ile forma girilen değerleri belirtilen forma adrese gönderir.-->
         <p>
-            Ad: <input type="text" name="ad" placeholder="adınızı giriniz" required>
+            Ad: <input type="text" name="ad" placeholder="adınızı giriniz" id="name" required>
         </p>
         <p>
-            SoyAd: <input type="text" name="soyad" placeholder="soyadınızı giriniz" required>
+            SoyAd: <input type="text" name="soyad" placeholder="soyadınızı giriniz" id="lastname" required>
         </p>
         <p>
-            Eposta: <input type="email" name="email" required>
+            Eposta: <input type="email" name="email" id="email" required>
         </p>
         <p>
             Beni Hatırla: <input type="checkbox" name="benihatirla">
@@ -48,7 +49,9 @@
 
             </select>
         </p>
-        <input type="submit" value="Kaydet" />
+        Mesaj: <br />
+        <textarea name="mesaj"></textarea><br />
+        <input type="submit" name="Submit" value="Formu Gönder" />
         <input type="reset" />
     </form>
 </body>
